@@ -75,8 +75,8 @@ a:focus {
   border: none;
   color: #111111;
   font-weight: 400;
-  padding: 0px;
-  border-radius: 3px;
+  padding: 5px;
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -88,8 +88,8 @@ a:focus {
   border: none;
   color: #fcfcfc;
   font-weight: 400;
-  padding: 0px;
-  border-radius: 3px;
+  padding: 5px;
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -100,8 +100,8 @@ a:focus {
   border: none;
   color: #fcfcfc;
   font-weight: 400;
-  padding: 0px;
-  border-radius: 3px;
+  padding: 5px;
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.5s;
   text-decoration: underline;
