@@ -1,0 +1,114 @@
+/*
+  Colours Used:
+  Background (White): white, #fcfcfc;
+  Text (Black): #111111;
+  Primary Colour (Dark Pastel Green): #00BC4E;
+  Secondary Colour (Forest Green): #008F3C;
+*/
+/* font-family: 'Nunito Sans', sans-serif; */
+/* Layout Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-colour: white;
+  font-family: 'Nunito Sans', serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 900;
+  Line-height: 1.4;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+  Line-height: 1.4;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 500;
+  Line-height: 1.4;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-weight: 400;
+  Line-height: 1.4;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  colour: #00BC4E;
+  font-weight: 400;
+}
+
+a:visited {
+  colour: #008F3C;
+}
+
+a:hover,
+a:focus {
+  colour: #008F3C;
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  background-color: transparent;
+  float: right;
+  border: none;
+  color: #111111;
+  font-weight: 400;
+  padding: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button:hover,
+.button:focus {
+  display: inline-block;
+  background-color: #00BC4E;
+  border: none;
+  color: #fcfcfc;
+  font-weight: 400;
+  padding: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button:active {
+  display: inline-block;
+  background-color: #008F3C;
+  border: none;
+  color: #fcfcfc;
+  font-weight: 400;
+  padding: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-decoration: underline;
+}
+
+nav{
+  display:inline-block;
+  width: 100%;
+  padding: 5px;
+}
