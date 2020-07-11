@@ -1,22 +1,18 @@
 /*
-  Colours Used:
+  colors Used:
   Background (White): white, #fcfcfc;
   Text (Black): #111111;
-  Primary Colour (Dark Pastel Green): #00BC4E;
-  Secondary Colour (Forest Green): #008F3C;
+  Primary color (Dark Pastel Green): #00BC4E;
+  Secondary color (Forest Green): #008F3C;
 */
 /* font-family: 'Nunito Sans', sans-serif; */
 /* Layout Styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
-  background-colour: white;
+  background-color: white;
   font-family: 'Nunito Sans', serif;
-  padding: 20px;
+  font-size: 16px;
+  line-height: normal;
 }
 
 h1 {
@@ -35,7 +31,7 @@ h2 {
 
 h3 {
   font-size: 1.75em;
-  font-weight: 500;
+  font-weight: 700;
   Line-height: 1.4;
   margin: 0;
 }
@@ -54,31 +50,28 @@ img {
 
 a {
   text-decoration: none;
-  colour: #00BC4E;
+  color: #00BC4E;
   font-weight: 400;
 }
 
 a:visited {
-  colour: #008F3C;
+  color: #00BC4E;
 }
 
 a:hover,
+a:active,
 a:focus {
-  colour: #008F3C;
+  color: #008F3C;
   text-decoration: underline;
 }
 
 .button {
   display: inline-block;
   background-color: transparent;
-  float: right;
-  border: none;
   color: #111111;
   font-weight: 400;
   padding: 5px;
   border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.5s;
 }
 
 .button:hover,
@@ -87,11 +80,6 @@ a:focus {
   background-color: #00BC4E;
   border: none;
   color: #fcfcfc;
-  font-weight: 400;
-  padding: 5px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.5s;
 }
 
 .button:active {
@@ -99,16 +87,4 @@ a:focus {
   background-color: #008F3C;
   border: none;
   color: #fcfcfc;
-  font-weight: 400;
-  padding: 5px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.5s;
-  text-decoration: underline;
-}
-
-nav{
-  display:inline-block;
-  width: 100%;
-  padding: 5px;
 }
