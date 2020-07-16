@@ -8,17 +8,38 @@
 /* font-family: 'Nunito Sans', sans-serif; */
 /* Layout Styling */
 
+ * {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
   font-family: 'Nunito Sans', serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.4;
+  margin: auto;
+}
+
+main {
+  padding-top: 120px;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 5px;
+  position: fixed;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.45);
+-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.45);
+box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.45);
 }
 
 h1, h2, h3, h4 {
-  line-height: 1.4;
-  margin: 01;
+  line-height: 1.2;
+  margin: auto;
 }
 
 h1 {
@@ -28,7 +49,7 @@ h1 {
 
 h2 {
   font-size: 2.25em;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h3 {
@@ -39,6 +60,10 @@ h3 {
 h4 {
   font-size: 1.25em;
   font-weight: 400;
+}
+
+p {
+  margin: 5px 0;
 }
 
 img {
@@ -75,4 +100,67 @@ a:focus{
   background-color: #00BC4E;
   color: #fcfcfc;
   text-decoration: none;
+}
+
+.social {
+  display: block;
+  padding-top: 10px;
+}
+
+.icon {
+  display: inline-block;
+  width: 2em;
+}
+
+/*Layout Styling */
+
+#hero {
+  display: block;
+  width: 100%;
+}
+
+#hero span {
+  display: block;
+}
+
+#work {
+  padding-top: 15px;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: .5px solid #e6e6e6;
+}
+
+#contact {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.container {
+  max width: 90%;
+  padding: 0 15px;
+}
+
+.logo {
+  padding: 5px;
+  text-decoration-line: underline;
+  font-weight: 900;
+  font-style: italic;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 15px 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
 }
