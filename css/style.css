@@ -24,11 +24,10 @@ main {
 }
 
 header {
-  text-align: center;
   width: 100%;
   padding: 5px 0px 5px;
   position: fixed;
-  background-color: #111111;
+  background-color: #fcfcfc;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.45);
   -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.45);
   box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.45);
@@ -231,6 +230,38 @@ a:active {
   font-style: italic;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle li:last-child {
+  display: inline-block;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .menuicon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 nav>ul {
   list-style: none;
   padding: 0;
@@ -238,33 +269,11 @@ nav>ul {
   margin: 0
 }
 
-nav>ul>li {
-  display: inline-block;
-}
-
 nav>ul>li>a {
   padding: 10px 10px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-}
-
-ul.borderXwidth a:before, ul.borderXwidth a:after
-{
-    position: absolute;
-    opacity: 0;
-    width: inherit;
-    height: 1px;
-    content: '';
-    background: #00BC4E;
-    transition: all 0.5s;
-    display: block;
-}
-
-ul.borderXwidth a:hover:before, ul.borderXwidth a:hover:after
-{
-    opacity: 1;
-    width: 5.5em;
 }
 
 .columns {
@@ -305,7 +314,24 @@ ul.borderXwidth a:hover:before, ul.borderXwidth a:hover:after
 
   nav>ul {
     padding: 0 20px;
+    margin: 1em 0;
   }
+
+  nav > ul > li {
+  display: inline-block;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+}
 
   .col-md-6 {
     width: 50%;
