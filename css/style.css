@@ -25,8 +25,8 @@ main {
 
 header {
   width: 100%;
-  padding: 5px 0px 5px;
   position: fixed;
+  align: center;
   background-color: #fcfcfc;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.45);
   -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.45);
@@ -245,7 +245,7 @@ a:active {
 .navtoggle li .menuicon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 0px;
   font-size: 20px;
 }
 
@@ -255,7 +255,7 @@ a:active {
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid#111111;
 }
 
 .navtoggle.responsive li:last-child  {
@@ -265,7 +265,6 @@ a:active {
 nav>ul {
   list-style: none;
   padding: 0;
-  padding-top: 10px;
   margin: 0
 }
 
